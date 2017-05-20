@@ -2,7 +2,7 @@ FROM debian:8
 
 ARG VERSION=1.5.1
 ARG WEB_VERSION=0.5.12
-ARG SECURITY_SCANNER_VERSION=0.0.1 
+ARG SECURITY_SCANNER_VERSION=1.0.0 
 
 RUN apt-get -qq update && \
     apt-get -qq install -y --no-install-recommends wget ca-certificates && \

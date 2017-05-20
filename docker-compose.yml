@@ -2,7 +2,7 @@ version: '2'
 
 services: 
   arachni_web_ui:
-      image: zukky/arachni
+      image: zukky/arachni-docker
       build: .
       ports:
         - "9292:9292"
